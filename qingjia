@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no" />
+    <title>请假详情</title>
+</head>
+<style>
+    body{margin: 0;padding: 0;}
+    *{margin: 0;padding: 0;}
+    body img{display: block;width: 100%;}
+    .wrap{width: 100%;max-width: 750px;margin: 0 auto;}
+    .banner{border-radius: .1rem;overflow: hidden;}
+    .qjxq{width: 90%;margin: .2rem auto;}
+    .splc{width: 90%;margin: .2rem auto;}
+    .wrap h2{font-size: .5rem;color: #3e3e3e;font-weight: normal;padding: .4rem 0 .22rem}
+    .qjxq .qjxq_con{border: 1px #d7d7d7 solid;width: 100%;border-bottom: none;}
+    .qjxq .qjxq_con p{border-bottom: 1px #d7d7d7 solid;width: 100%;font-size: .32rem;color: #2f2f2f;overflow: hidden;}
+    .qjxq .qjxq_con p span{width: 24%;padding: .24rem .14rem;float: left;height: 100%;min-height: .46rem;}
+    .qjxq .qjxq_con p span.spanright{border-left: 1px #d7d7d7 solid;width: 64%;}
+    .splc .splc_con{padding-left: .17rem;}
+    .splc .splc_con .splclist{border-left: .02rem #e4e4e4 solid;}
+    .splc .splc_con .splclist_last{border-left: none;}
+    .splc .splc_con .splclist h3{font-size: .44rem;color: #313131;font-weight: normal;position: relative;padding: 0 .3rem 0 .5rem;margin-top: -.1rem;}
+    .splc .splc_con .splclist h3 em{width: .3rem;height: .3rem;position: absolute;border: .04rem #73b666 solid;border-radius: 50%;left: -.19rem;top: .1rem;background: #fff;box-shadow: 0 0 0 .08rem #fff;}
+    .splc .splc_con .splclist h3 span{width: 1.1rem;height: .55rem;display: inline-block; border-radius: .1rem;background: #73b666;font-size: .38rem;color: #fff;text-align: center;line-height: .55rem;margin-left: .01rem;}
+    .splc .splc_con .splclist h4{font-size: .36rem;color: #666;font-weight: normal;padding: 0 .3rem 0 .5rem;line-height: .5rem;padding-top: .2rem;}
+    .splc .splc_con .splclist p{font-size: .36rem;color: #666;line-height: .5rem;padding: .3rem .5rem .6rem;}
+    .splc .splc_con .splclist p span{font-size: .4rem;margin-right: .1rem;}
+    .footer p{font-size: .32rem;color: #6e6e6e;text-align: center;line-height: .46rem;padding: .3rem 0;}
+</style>
+<body>
+    <div class="wrap">
+        <div class="banner"><img src="http://yngsxy.szxingaojiao.com/images/stutop.png"></div>
+        <div class="qjxq">
+            <h2>请假详情</h2>
+            <div class="qjxq_con">
+                <p><span>类型</span><span class="spanright">病假</span></p>
+                <p><span>姓名</span><span class="spanright">黄灿</span></p>
+                <p><span>班级</span><span class="spanright">2017级【本科】市场营销1班</span></p>
+                <p><span>电话</span><span class="spanright">15201155513</span></p>
+                <p><span>请假事由</span><span class="spanright">本人去昆明拿药: ??雷诺考特布地奈德鼻炎喷剂, ??当天回来。外出原因真实,家长知晓,家长姓名:李建红,电话, 13730635495,外出期间自觉做好防护工作,佩戴口罩,不接触疫情人员及隔离人员,如出现接触,及时上报辅导员。</span></p>
+                <p><span>开始时间</span><span class="spanright">2020-07-11 16:29:00</span></p>
+                <p><span>结束时间</span><span class="spanright">2020-07-11 22:30:00</span></p>
+            </div>
+        </div>
+        <div class="splc">
+            <h2>审批流程</h2>
+            <div class="splc_con">
+                <div class="splclist">
+                    <h3><em></em>学生：黄灿<span>提交</span></h3>
+                    <p><span>•</span>2020-07-03 15:37:50</p>
+                </div>
+                <div class="splclist">
+                    <h3><em></em>辅导员： 李沧临<span>通过</span></h3>
+                    <h4>情况属实，家长已知晓并同意，注意校外安全，做好防疫防控工作。及时返校。</h4>
+                    <p><span>•</span>2020-07-03 15:50:55</p>
+                </div>
+                <div class="splclist">
+                    <h3><em></em>学生：黄灿<span>通过</span></h3>
+                    <h4>请假期间注意出行安全及疫情防范，返校提供就诊证明</h4>
+                    <p><span>•</span>2020-07-03 18:06:52</p>
+                </div>
+                <div class="splclist">
+                    <h3><em></em>学生：黄灿<span>通过</span></h3>
+                    <p><span>•</span>2020-07-03 18:12:02</p>
+                </div>
+                <div class="splclist splclist_last">
+                    <h3><em></em>学生：黄灿<span>通过</span></h3>
+                    <p><span>•</span>2020-07-04 10:36:10</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer"><p>数字云工商V2.0<br />copyright@信息中心</p></div>
+    </div>
+    <script type="text/javascript">
+        //兼容模式
+            if(document.documentElement.width > 750 ||document.body.clientWidth > 750){
+                document.documentElement.style.fontSize = 100+"px";
+                document.body.style.width = 750+"px";
+                document.body.style.margin = "0 auto";
+            }else{
+                var clientWidth = document.documentElement.width||document.body.clientWidth
+                //计算比例
+                var per = clientWidth/375;
+                document.documentElement.style.fontSize = per*50+"px";
+                window.onresize = function(){
+                    var clientWidth = document.documentElement.width||document.body.clientWidth
+                    //计算比例
+                    var per = clientWidth/375;
+                    document.documentElement.style.fontSize = per*50+"px";
+                }
+            }
+        </script>
+</body>
+</html>
